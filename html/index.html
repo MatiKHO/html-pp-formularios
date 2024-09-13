@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>CVR - Club Viejuner Robabicis</title>
+</head>
+<body>
+
+    <h2>Formulario de Admisión del Club Viejuner</h2>
+
+    <form>
+        <fieldset>
+            <legend>El Club Viejuner</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre"><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Tus apellidos"><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Tu edad"><br>
+
+            <label>Sexo:</label>
+            <input type="radio" id="sexoM" name="sexo" value="masculino" tabindex="4">
+            <label for="sexoM">Masculino</label>
+            <input type="radio" id="sexoF" name="sexo" value="femenino" tabindex="5">
+            <label for="sexoF">Femenino</label><br>
+
+            <label for="viejuner">Me siento viejuner:</label>
+            <input type="checkbox" name="viejuner" id="viejuner" value="sí"><br>
+
+            <label for="sobreTi">Escribe algo sobre tí:</label>
+            <textarea name="sobreTi" id="sobreTi" placeholder="Cuéntanos algo sobre tí..."></textarea><br>
+
+            <legend>Tus circunstancias</legend>
+
+            <label for="correo-electrónico">Email</label>
+            <input type="email" name="email" id="email" placeholder="Tu email"><br>
+
+            <label for="teléfono">Telefono</label>
+            <input type="number" name="telefono" id="telefono" placeholder="+34 123 456 789"><br>
+
+
+            <button type="reset" tabindex="10">Resetear</button>
+            <button type="submit" tabindex="11">Enviar</button>
+
+        </fieldset>
+
+
+    </form>
+
+
+    <h2>Formulario para Reportar el Robo de Bicicletas</h2> 
+
+    <form id="roboBicicletasForm">
+
+        <fieldset>
+            <legend>Los Robabicis</legend>
+
+            <label for="fecha">Día:</label>
+            <input type="date" id="fecha" name="fecha"><br>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora"><br>
+
+            <label for="color">Color de la bicicleta:</label>
+            <input type="color" id="color" name="color"><br>
+
+            <label for="precio">Rango de precio:</label>
+            <input type="range" id="precio" name="precio" min="0" max="10000"><br>
+
+            <label for="tipoBicicleta">Tipo de bicicleta:</label>
+            <select id="tipoBicicleta" name="tipoBicicleta">
+                <option value="paseo">Paseo</option>
+                <option value="señorial">Señorial</option>
+                <option value="antiplebeyos">Anti-plebeyos</option>
+                <option value="porEncimaDelHombro">PorEncimaDelHombro</option>
+                <option value="montaña">Montaña</option>
+                <option value="gamusinos">Gamusinos</option>
+                <option value="huelefloresPremium">Hueleflores premium</option>
+                <option value="fangoLover">Fango lover</option>
+                <option value="carreras">Carreras</option>
+                <option value="metroymedio">Metroymedio</option>
+                <option value="fluorescenteEdition">3 de la tarde. Fluorescente edition</option>
+                <option value="grupitors">Grupitors</option>
+            </select><br>
+
+            <label for="accesorios">Accesorios:</label>
+            <select id="accesorios" name="accesorios" multiple tabindex="17">
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bombaDeAire">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="foco">Foco</option>
+            </select><br>
+
+            <label for="marca">¿Qué marca era?:</label>
+            <input list="marcas" id="marca" name="marca" placeholder="Selecciona o escribe una marca" tabindex="18">
+            <datalist id="marcas">
+                <option value="Specialized"></option>
+                <option value="Trek"></option>
+                <option value="Merida"></option>
+                <option value="Scott"></option>
+                <option value="Giant"></option>
+                <option value="Cube"></option>
+                <option value="Lapierre"></option>
+                <option value="Orbea"></option>
+                <option value="Cannondale"></option>
+                <option value="BMC"></option>
+                <option value="Canyon"></option>
+                <option value="Look"></option>
+                <option value="Protek"></option>
+                <option value="Megamo"></option>
+                <option value="Pinarello"></option>
+                <option value="Bianchi"></option>
+                <option value="BH"></option>
+                <option value="Factor"></option>
+                <option value="Ghost"></option>
+                <option value="Cervélo"></option>
+                <option value="Argon"></option>
+            </datalist><br>
+
+            <button type="reset" tabindex="19">Resetear</button>
+            <button type="submit" tabindex="20">Enviar</button>
+        </fieldset>
+    </form> 
+
+</body>
+</html> 
+
+
+
+
